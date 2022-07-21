@@ -10,7 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_count_digit_base(long n, int base)
+#include "libft.h"
+
+int	ft_count_digit_base(size_t n, int base)
 {
 	int	len;
 
